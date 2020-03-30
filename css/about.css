@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
-@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
 
 * {
   margin: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 .about-title h1 {
-  font-family: 'Titan One', cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
   font-size: 30px;
   color: antiquewhite;
 }
