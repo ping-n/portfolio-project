@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+
+.footer {
+  position: fixed;
+  height: 70px;
+  width: 90%;
+  bottom: 0;
+  left: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
+
+.footer-links a {
+  padding: 5px 20px;
+  font-size: 2em;
+  color: white;
+}
+
+.footer-links a:hover{
+  color: aquamarine;
+}
+
+.footer-tag a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.footer-tag a:hover{
+  color: aquamarine;
+}
