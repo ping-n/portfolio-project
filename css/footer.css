@@ -4,9 +4,9 @@
 .footer {
   position: fixed;
   height: 70px;
-  width: 90%;
+  width: 95%;
   bottom: 0;
-  left: 5%;
+  left: 2%;
   display: flex;
   justify-content: space-between;
 }
@@ -15,8 +15,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 30px;
-  width: 30px;
 }
 
 .footer-links a {
@@ -27,6 +25,12 @@
 
 .footer-links a:hover{
   color: aquamarine;
+}
+
+.footer-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-tag a {

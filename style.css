@@ -11,5 +11,7 @@ body {
   background-image: url(./docs/red-and-gray-pagoda-temple-3408354.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
