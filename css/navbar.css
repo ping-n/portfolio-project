@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+
+/* nav bar */
+
+.navbar {
+  width: 100vw;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Titan One', cursive, sans-serif;
+  padding: 5px 20px;
+}
+
+.nav-link:hover {
+  color: antiquewhite;
+}
