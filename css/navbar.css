@@ -16,8 +16,9 @@
 
 .nav-link {
   text-decoration: none;
-  color: whitesmoke;
+  color: antiquewhite;
   font-family: 'Titan One', cursive, sans-serif;
+  font-size: 20px;
   padding: 20px 20px;
 }
 
