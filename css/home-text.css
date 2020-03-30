@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

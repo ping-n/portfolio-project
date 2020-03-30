@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
 
+/* Footer for website */
 .footer {
   position: fixed;
   height: 70px;
@@ -21,7 +22,7 @@
 .footer-links a {
   padding: 5px 20px;
   font-size: 2em;
-  color: white;
+  color: whitesmoke;
 }
 
 .footer-links a:hover{

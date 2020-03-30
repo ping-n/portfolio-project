@@ -16,11 +16,11 @@
 
 .nav-link {
   text-decoration: none;
-  color: white;
+  color: whitesmoke;
   font-family: 'Titan One', cursive, sans-serif;
   padding: 5px 20px;
 }
 
 .nav-link:hover {
-  color: antiquewhite;
+  color: aquamarine;
 }
