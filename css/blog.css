@@ -31,7 +31,7 @@ body {
   overflow: hidden;
 }
 
-.slider .slider:hover {
+.slider .slide:hover {
   flex-grow: 5;
 }
 
@@ -61,3 +61,5 @@ body {
   background-position: center center;
   background-size: cover;
 }
+
+/* slider Content */
