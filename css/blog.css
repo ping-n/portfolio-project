@@ -24,6 +24,10 @@ body {
   display: flex;
   border: 2px solid black;
 }
+.blog-text {
+  color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 .slider .slide {
   position: relative;
@@ -32,7 +36,7 @@ body {
 }
 
 .slider .slide:hover {
-  flex-grow: 5;
+  flex-grow: 20;
 }
 
 /* Slider Images */
