@@ -23,21 +23,96 @@
 
 
 /* Card Position */
-.c-front-1, .c-back {
+.c-front-1, .c-front-2, .c-front-3, .c-back {
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
 }
 
+/* Flip Card Front */
 .c-front-1 {
-  background-image: url("../docs/project-photos/terminal-app.png");
+  background-color: #94D3AC;
   height: 300px;
   background-size: 300px 300px;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#c1-content {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("../docs/project-photos/terminal-app.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+}
+
+.c-front-2 {
+  /* background-image: url("../docs/project-photos/terminal-app.png"); */
+  background-color: #94D3AC;
+  height: 300px;
+  background-size: 300px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#c2-content {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("../docs/project-photos/terminal-app.png");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+}
+
+.c-front-3 {
+  /* background-image: url("../docs/project-photos/terminal-app.png"); */
+  background-color: #94D3AC;
+  height: 300px;
+  background-size: 300px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#c3-content {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-image: url("../docs/project-photos/comingsoon.png");
+  background-size: 90% 90%;
+  background-color: bisque;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+}
+
+/* Flip Card Back */
 .c-back {
   color: antiquewhite;
   background-color: darkred;
