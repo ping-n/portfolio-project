@@ -85,12 +85,10 @@ body {
   color: #225165;
   transform: rotate(270deg);
   top: 50%;
+  margin-left: 20px;
   visibility: visible;
-  overflow: hidden;
-  background-color: aqua;
+  overflow: none;;
 }
-
-
 
 .b-content {
   margin: 0 auto;
