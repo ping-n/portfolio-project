@@ -21,7 +21,7 @@
   color: whitesmoke;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
   color: aqua;
 }
 
@@ -37,7 +37,7 @@
   text-decoration: none;
 }
 
-.footer-tag a:hover{
+.footer-tag a:hover {
   color: aqua;
   transition: color 1s linear;
 }

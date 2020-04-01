@@ -2,7 +2,7 @@
 @import "footer.css";
 @import "home-text.css";
 @import "flipcard.css";
-@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
 
 * {
   margin: 0;
@@ -34,7 +34,7 @@ body {
 
 /* Page Content */
 #title {
-  font-family: 'Titan One', cursive, sans-serif;
+  font-family: "Titan One", cursive, sans-serif;
   font-size: 2em;
   color: var(--main-colour-text);
   display: flex;

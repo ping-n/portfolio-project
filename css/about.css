@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
-@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
 
 * {
   margin: 0;
@@ -35,7 +35,7 @@ body {
 }
 
 .about-title h1 {
-  font-family: 'Titan One', cursive, sans-serif;
+  font-family: "Titan One", cursive, sans-serif;
   font-size: 30px;
   color: antiquewhite;
 }
@@ -53,7 +53,7 @@ body {
   margin: 10px 20px;
 }
 
-.about-text p{
+.about-text p {
   color: antiquewhite;
   font-size: 20px;
   text-align: justify;
@@ -70,7 +70,7 @@ body {
 }
 
 .about-skill h2 {
-  font-family: 'Titan One', cursive, sans-serif;
+  font-family: "Titan One", cursive, sans-serif;
   color: antiquewhite;
   font-size: 30px;
 }
