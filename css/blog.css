@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
+@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
 
 * {
   margin: 0;
@@ -16,7 +17,7 @@ body {
   overflow: hidden;
 }
 
-/* Slider */
+/* Slider  Control*/
 .slider {
   margin: 0 auto;
   height: 80%;
@@ -37,6 +38,15 @@ body {
 
 .slider .slide:hover{
   flex-grow: 20;
+}
+
+.slider .slide:hover .blog-id {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.slider .slide:hover .b-content {
+  visibility: visible;
 }
 
 /* Slider Images */
@@ -67,6 +77,21 @@ body {
 }
 
 /* slider Content */
+.blog-id {
+  position: fixed;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "Titan One", cursive, sans-serif;
+  color: #225165;
+  transform: rotate(270deg);
+  top: 50%;
+  visibility: visible;
+  overflow: hidden;
+  background-color: aqua;
+}
+
+
+
 .b-content {
   margin: 0 auto;
   height: 50%;
@@ -77,10 +102,6 @@ body {
   align-items: center;
   border: 1px solid black;
   background-color: black;
+  visibility: hidden;
 }
 
-.b-content h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: aqua;
-}
