@@ -39,4 +39,5 @@
 
 .footer-tag a:hover{
   color: aqua;
+  transition: color 1s linear;
 }
