@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Titan+One&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
 
 .home-container {
   height: 50vh;
@@ -9,12 +9,12 @@
 }
 
 .home-name h1 {
-  font-family: 'Titan One', cursive, sans-serif;
+  font-family: "Titan One", cursive, sans-serif;
   font-size: 5em;
   color: antiquewhite;
 }
-.home-name h2{
-  font-family: 'Titan One', cursive, sans-serif;
+.home-name h2 {
+  font-family: "Titan One", cursive, sans-serif;
   font-size: 2em;
   color: antiquewhite;
 }

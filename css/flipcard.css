@@ -1,8 +1,8 @@
 /* Variables */
 
 * {
-  --flip-colour-b: #C3DFE0;
-  --flip-colour-f: #94D3AC;
+  --flip-colour-b: #c3dfe0;
+  --flip-colour-f: #94d3ac;
   --main-colour-text: #225165;
 }
 
@@ -28,9 +28,11 @@
   transform: rotateY(180deg);
 }
 
-
 /* Card Position */
-.c-front-1, .c-front-2, .c-front-3, .c-back {
+.c-front-1,
+.c-front-2,
+.c-front-3,
+.c-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -57,9 +59,9 @@
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
 }
 
 .c-front-2 {
@@ -82,9 +84,9 @@
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
 }
 
 .c-front-3 {
@@ -108,9 +110,9 @@
   background-color: bisque;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
 }
 
 /* Flip Card Back */
@@ -129,9 +131,9 @@
   background-color: antiquewhite;
   opacity: 0.5;
   text-decoration: none;
-  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
 }
 
 .c-back h2:hover {
