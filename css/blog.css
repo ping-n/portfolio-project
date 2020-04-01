@@ -35,7 +35,7 @@ body {
   overflow: hidden;
 }
 
-.slider .slide:hover {
+.slider .slide:hover{
   flex-grow: 20;
 }
 
@@ -67,3 +67,20 @@ body {
 }
 
 /* slider Content */
+.b-content {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  margin-top: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  background-color: black;
+}
+
+.b-content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: aqua;
+}
