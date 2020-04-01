@@ -1,9 +1,16 @@
+/* Variables */
+
+* {
+  --flip-colour-b: #C3DFE0;
+  --flip-colour-f: #94D3AC;
+  --main-colour-text: #225165;
+}
+
 /* Flip card */
 .flip-card {
   background-color: transparent;
   height: 300px;
   width: 300px;
-  border: 1px solid red;
   perspective: 300px;
 }
 
@@ -32,7 +39,7 @@
 
 /* Flip Card Front */
 .c-front-1 {
-  background-color: #94D3AC;
+  background-color: var(--flip-colour-f);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
@@ -46,7 +53,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   border-radius: 5px;
   background-image: url("../docs/project-photos/terminal-app.png");
   background-size: 100% 100%;
@@ -59,7 +65,7 @@
 
 .c-front-2 {
   /* background-image: url("../docs/project-photos/terminal-app.png"); */
-  background-color: #94D3AC;
+  background-color: var(--flip-card-fcolor);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
@@ -73,9 +79,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   border-radius: 5px;
-  background-image: url("../docs/project-photos/terminal-app.png");
+  background-image: url("../docs/project-photos/portfolio.png");
   background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -86,7 +91,7 @@
 
 .c-front-3 {
   /* background-image: url("../docs/project-photos/terminal-app.png"); */
-  background-color: #94D3AC;
+  background-color: var(--flip-colour-f);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
@@ -100,7 +105,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
   border-radius: 5px;
   background-image: url("../docs/project-photos/comingsoon.png");
   background-size: 90% 90%;
@@ -115,6 +119,39 @@
 /* Flip Card Back */
 .c-back {
   color: antiquewhite;
-  background-color: darkred;
+  background-color: var(--flip-colour-b);
   transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.c-back a {
+  border: 2px solid wheat;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  text-decoration: none;
+  box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 16px -2px rgba(0,0,0,0.75);
+}
+
+.c-back h2:hover {
+  color: aqua;
+  background-color: transparent;
+}
+
+.c-back h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: var(--main-colour-text);
+}
+
+.c-back p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: var(--main-colour-text);
+  text-align: center;
 }
