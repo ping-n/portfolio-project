@@ -39,7 +39,6 @@
 
 /* Flip Card Front */
 .c-front-1 {
-  background-color: var(--flip-colour-f);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
@@ -65,7 +64,6 @@
 
 .c-front-2 {
   /* background-image: url("../docs/project-photos/terminal-app.png"); */
-  background-color: var(--flip-card-fcolor);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
@@ -91,7 +89,6 @@
 
 .c-front-3 {
   /* background-image: url("../docs/project-photos/terminal-app.png"); */
-  background-color: var(--flip-colour-f);
   height: 300px;
   background-size: 300px 300px;
   display: flex;
