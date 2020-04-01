@@ -113,3 +113,47 @@ body {
   font-size: 10px;
   color: grey;
 }
+
+/* Blog List */
+.blog-list-container {
+  height: 300px;
+  width: 300px;
+  border: 1px solid yellow;
+  background-color: royalblue;
+  top: 20%;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.blog-list-container h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.bl-title {
+  background-color: salmon;
+  border-radius: 3px;
+  height: auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.bl-title a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.bl-title p {
+  font-size: 10px;
+  color: black;
+}
+
+.bl-title:hover {
+  background-color: blanchedalmond;
+}
