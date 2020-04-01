@@ -25,22 +25,38 @@ body {
   width: 300px;
   border: 1px solid yellow;
   background-color: royalblue;
-  top: 50%;
+  top: 20%;
   left: 0;
   position: fixed;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
+.blog-list-container h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .bl-title {
-  text-align: center;
-  text-decoration: none;
   background-color: salmon;
   border-radius: 3px;
-  height: 20px;
-  width: 100px;
-  box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
+  height: auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px 5px;
+  padding: 5px 5px;
+}
+
+.bl-title a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.bl-title p {
+  font-size: 10px;
+  color: black;
 }
 
 .bl-title:hover {
