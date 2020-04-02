@@ -26,3 +26,14 @@
   color: aqua;
   transition: color 0.5s linear;
 }
+
+
+@media only screen and (max-width: 600px) {
+  .nav-link {
+    text-decoration: none;
+    color: wheat;
+    font-family: 'Rammetto One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px 5px;
+  }
+}
