@@ -142,9 +142,7 @@
 }
 
 .c-back h2 {
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Righteous', cursive;
-  font-family: 'Rammetto One', cursive;
+  font-family: 'Rammetto One', cursive, Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   font-weight: bold;
   color: var(--main-colour-text);
