@@ -1,6 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Righteous&display=swap');
 
 * {
   margin: 0;
@@ -28,8 +29,6 @@ body {
   max-width: 600px;
   margin: 20px auto;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
 
@@ -41,4 +40,13 @@ textarea {
   width: 100%;
   margin-top: 1em;
   box-shadow: 0, 1px, 1px, black;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
+}
+
+
+textarea {
+  height: 300px;
+  resize: none;
 }

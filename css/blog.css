@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
-@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Righteous&display=swap');
 
 * {
   margin: 0;
@@ -79,13 +79,14 @@ body {
 /* slider Content */
 .blog-id {
   position: fixed;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
-  font-family: "Titan One", cursive, sans-serif;
-  color: #225165;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   transform: rotate(270deg);
   top: 50%;
-  margin-left: 30px;
+  margin-left: 10px;
   visibility: visible;
   overflow: none;;
 }
@@ -107,19 +108,64 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
 }
 
 #date {
   font-size: 10px;
   color: grey;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
+}
+
+/* Blog list title color */
+#bt-1 {
+  color: aqua;
+}
+
+#bt-2 {
+  color: red;
+}
+
+#bt-3 {
+  color: yellow;
+}
+
+#bt-4 {
+  color: blue;
+}
+#bt-5 {
+  color: #46CB18;
+}
+
+/* blog book title */
+
+#st-1 {
+  color: aqua;
+}
+
+#st-2 {
+  color: red;
+}
+
+#st-3 {
+  color: yellow;
+}
+
+#st-4 {
+  color: blue;
+}
+#st-5 {
+  color: #46CB18;
 }
 
 /* Blog List */
 .blog-list-container {
-  height: 300px;
-  width: 300px;
-  border: 1px solid yellow;
-  background-color: royalblue;
+  height: 250px;
+  width: 200px;
   top: 20%;
   left: 0;
   position: fixed;
@@ -131,6 +177,10 @@ body {
 .blog-list-container h3 {
   font-size: 30px;
   font-weight: bold;
+  color: antiquewhite;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
 }
 
 .bl-title {
@@ -142,16 +192,25 @@ body {
   justify-content: space-evenly;
   margin: 5px 5px;
   padding: 5px 5px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
 }
 
 .bl-title a {
   text-decoration: none;
   font-size: 20px;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
 }
 
 .bl-title p {
   font-size: 10px;
-  color: black;
+  color: whitesmoke;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
 }
 
 .bl-title:hover {

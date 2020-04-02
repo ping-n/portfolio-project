@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Righteous&display=swap');
 
 .home-container {
   height: 50vh;
@@ -9,12 +9,16 @@
 }
 
 .home-name h1 {
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   font-size: 5em;
   color: antiquewhite;
 }
 .home-name h2 {
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   font-size: 2em;
   color: antiquewhite;
 }
