@@ -36,3 +36,17 @@
   -moz-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 16px -2px rgba(0, 0, 0, 0.75);
 }
+
+@media only screen and (max-width: 800px) {
+  .home-name h1 {
+    font-family: 'Rammetto One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: antiquewhite;
+  }
+  .home-name h2 {
+    font-family: 'Rammetto One', cursive, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: antiquewhite;
+  }
+  
+}

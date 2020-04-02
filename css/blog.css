@@ -204,3 +204,19 @@ body {
 .bl-title:hover {
   background-color: blanchedalmond;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(../docs/japan-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+}
