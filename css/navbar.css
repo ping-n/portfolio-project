@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Righteous&display=swap');
 
 /* nav bar */
 
@@ -17,7 +17,9 @@
 .nav-link {
   text-decoration: none;
   color: wheat;
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   font-size: 30px;
   padding: 20px 20px;
 }

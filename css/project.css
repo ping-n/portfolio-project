@@ -34,9 +34,11 @@ body {
 
 /* Page Content */
 #title {
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   font-size: 2em;
-  color: var(--main-colour-text);
+  color: wheat;
   display: flex;
   justify-content: center;
   align-items: center;

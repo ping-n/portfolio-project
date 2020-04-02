@@ -1,7 +1,7 @@
 @import "navbar.css";
 @import "footer.css";
 @import "home-text.css";
-@import url("https://fonts.googleapis.com/css?family=Titan+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Rammetto+One&family=Righteous&display=swap');
 
 * {
   margin: 0;
@@ -35,7 +35,9 @@ body {
 }
 
 .about-title h1 {
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   font-size: 30px;
   color: antiquewhite;
 }
@@ -51,6 +53,7 @@ body {
   justify-content: center;
   height: 75%;
   margin: 10px 20px;
+  
 }
 
 .about-text p {
@@ -70,7 +73,9 @@ body {
 }
 
 .about-skill h2 {
-  font-family: "Titan One", cursive, sans-serif;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'Rammetto One', cursive;
   color: antiquewhite;
   font-size: 30px;
 }
