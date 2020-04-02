@@ -18,13 +18,16 @@
   height: 100%;
   width: 100%;
   position: relative;
+  -webkit-transition: transform 0.8s;
   transition: transform 0.8s;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
 /* Hover */
 
 .flip-card:hover .fc-content {
+  -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -36,6 +39,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
