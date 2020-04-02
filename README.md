@@ -54,6 +54,7 @@ I have create multiple branch while creating this website to ensure there are mu
 branch includes
 
 - font changes
+- grid for about me
 - color palette experiments
 - blog layout change
 - One for my Window personal computer
